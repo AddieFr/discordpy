@@ -28,7 +28,7 @@ async def ping(ctx):
 
 @bot.command()
 async def info(ctx):
-    embed = discord.Embed(title=f"{ctx.guild.name}", description="Shyizen parivte server for don't get a void server check <#961949738280841266>", timestamp=datetime.datetime.utcnow(), color=discord.Color.blue())
+    embed = discord.Embed(title=f"{ctx.guild.name}", description="change description <#rules channel id or any channel u want>", timestamp=datetime.datetime.utcnow(), color=discord.Color.blue())
     embed.add_field(name="Server created at", value=f"{ctx.guild.created_at}")
     embed.add_field(name="Server Owner", value=f"{ctx.guild.owner}")
     embed.add_field(name="Server Region", value=f"{ctx.guild.region}")
