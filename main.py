@@ -42,7 +42,7 @@ async def info(ctx):
 # Events
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name="Shyizen-Maid", url="http://www.twitch.tv/accountname"))
+    await bot.change_presence(activity=discord.Streaming(name="remedyfn", url="http://www.twitch.tv/accountname"))
     print(bot.user.name + "is online now!")
 
 
